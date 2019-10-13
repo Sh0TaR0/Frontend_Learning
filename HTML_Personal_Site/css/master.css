@@ -1,18 +1,24 @@
+:root {
+    --heading_color: #f38181;
+    --background_color: #eaffd0;
+    --border_color: #95e1d3;
+}
+
 body {
-    background-color: #eaffd0;
+    background-color: var(--background_color);
 }
 
 hr {
     border-style: dotted none none;
-    border-color: #95e1d3;
+    border-color: var(--border_color);
     border-width: 10px;
     width: 8%;
 }
 
 h1 {
-    color: #f38181;
+    color: var(--heading_color);
 }
 
 h3 {
-    color: #f38181;
+    color: var(--heading_color);
 }
