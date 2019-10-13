@@ -12,7 +12,7 @@ hr {
     border-style: dotted none none;
     border-color: var(--border_color);
     border-width: 10px;
-    width: 8%;
+    width: 15%;
 }
 
 h1 {
@@ -21,4 +21,8 @@ h1 {
 
 h3 {
     color: var(--heading_color);
+}
+
+#picmin:hover {
+    border-radius: 100%;
 }
